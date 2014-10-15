@@ -31,7 +31,7 @@ def displayMenu() :
 
 
 
-def main() :
+def main(theList) :
     """ This is the main function
     
     The menu will be displayed, a character will be 
@@ -52,4 +52,4 @@ def main() :
 
 # invoke main()
 if __name__=="__main__" :
-	main()
+	main(DATA)
